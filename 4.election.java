@@ -19,14 +19,19 @@ class Counter {
                 switch (vote) {
                     case 1:
                         count[0]++;
+                        break;
                     case 2:
                         count[1]++;
+                        break;
                     case 3:
                         count[2]++;
+                        break;
                     case 4:
                         count[3]++;
+                        break;
                     case 5:
                         count[4]++;
+                        break;
                 }
             } else if (vote == -1) {
                 break;
@@ -47,7 +52,7 @@ class Counter {
     }
 }
 
-public class _4Election {
+public class election {
     public static void main(String[] args) {
         int[] count = new int[5];
 
