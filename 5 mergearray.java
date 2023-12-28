@@ -32,7 +32,6 @@ class ArrayInAndSort {
         for (int i = 0; i < n; i++) {
             Arr[i] = sc.nextInt();
         }
-        sc.close();
     }
 
     static void displaySorted(int[] Arr, int n) {
