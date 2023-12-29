@@ -1,11 +1,6 @@
-/**
- 5)     Given are two one dimensional array A and B which are sorted in ascending
-    order. Develop an application to merge them into a single sorted array C that
-    contains every item form A and B, in ascending order.
-
-    Name of the program: _5MergeArray.java
- */
-
+/*
+ Name of the program: _5MergeArray.java
+  /*   
 import java.util.*;
 
 class ArrayInAndSort {
