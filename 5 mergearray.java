@@ -1,6 +1,3 @@
-/*
- Name of the program: _5MergeArray.java
-  /*   
 import java.util.*;
 
 class ArrayInAndSort {
