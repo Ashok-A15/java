@@ -1,8 +1,3 @@
-/**
-    Java program to read the marks and display the results in the exam
-    Name of the program: _7ExamResults.java
-*/
-
 import java.util.*;
 
 class Student {
