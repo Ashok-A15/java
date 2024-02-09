@@ -15,14 +15,14 @@ public class Main{
  int ch=0; 
       while(ch != 2){ 
       System.out.print("Press 1 to display\nPress 2 to exit"); 
- ch = in.nextInt(); 
- if(ch ==1){ 
- System.out.print("Enter the city no. : "); 
+      ch = in.nextInt(); 
+      if(ch ==1){ 
+      System.out.print("Enter the city no. : "); 
  int ctn = in.nextInt(); 
- if(ctn > 5 || ctn < 1) 
- System.out.print("Enter valid no. "); 
+       if(ctn > 5 || ctn < 1) 
+       System.out.print("Enter valid no. "); 
  else 
- city[ctn-1].display(); 
+       city[ctn-1].display(); 
  } 
  else if(ch ==2) 
  break; 
