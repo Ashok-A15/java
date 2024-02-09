@@ -24,46 +24,46 @@ public class Main{
  else 
        city[ctn-1].display(); 
  } 
- else if(ch ==2) 
- break; 
+       else if(ch ==2) 
+       break; 
  else 
- System.out.print("Enter correct option"); 
+       System.out.print("Enter correct option"); 
  } 
- in.close(); 
+       in.close(); 
  } 
 } 
 class City{ 
- Scanner in = new Scanner(System.in); 
- int[] t = new int[6]; 
- int high, low, hd, ld; 
- String name; 
- public void read() 
+       Scanner in = new Scanner(System.in); 
+       int[] t = new int[6]; 
+       int high, low, hd, ld; 
+       String name; 
+       public void read() 
  { 
- System.out.print("Enter the name of city : "); 
- name = in.next(); 
- for(int i=0;i<6;i++){ 
- System.out.print("Enter the temperature on Jan "+(i+1)+" : "); 
- t[i] = in.nextInt(); 
+       System.out.print("Enter the name of city : "); 
+       name = in.next(); 
+       for(int i=0;i<6;i++){ 
+       System.out.print("Enter the temperature on Jan "+(i+1)+" : "); 
+       t[i] = in.nextInt(); 
  } 
  } 
  public void cal() 
  { 
- high = t[1]; 
- low = t[1]; 
- for(int i=0; i<6; i++){ 
- if(t[i] > high){ 
- high = t[i]; 
- hd = i+1; 
+       high = t[1]; 
+       low = t[1]; 
+       for(int i=0; i<6; i++){ 
+       if(t[i] > high){ 
+       high = t[i]; 
+       hd = i+1; 
  } 
- if(t[i] < low){ 
- low = t[i]; 
- ld = i+1; 
+       if(t[i] < low){ 
+       low = t[i]; 
+       ld = i+1; 
  } 
  } 
  } 
  public void display(){ 
- System.out.println("City Name : "+name); 
- System.out.println("Highest temperataure is "+high+" on Jan "+hd); 
- System.out.println("Lowest temperataure is "+low+" on Jan "+ld); 
+       System.out.println("City Name : "+name); 
+       System.out.println("Highest temperataure is "+high+" on Jan "+hd); 
+       System.out.println("Lowest temperataure is "+low+" on Jan "+ld); 
  } 
 }
