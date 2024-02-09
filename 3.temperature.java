@@ -2,19 +2,19 @@
 import java.util.*; 
 import java.util.Scanner; 
 public class Main{ 
- public static void main(String args[]){ 
- Scanner in = new Scanner(System.in); 
- City[] city = new City[6]; 
- for(int i=0;i<6;i++) 
- city[i] = new City(); 
- for(int i=0;i<6;i++){ 
- System.out.print("Enter details of city-"+(i+1)+" : "); 
- city[i].read(); 
- city[i].cal(); 
+      public static void main(String args[]){ 
+      Scanner in = new Scanner(System.in); 
+      City[] city = new City[6]; 
+      for(int i=0;i<6;i++) 
+      city[i] = new City(); 
+      for(int i=0;i<6;i++){ 
+      System.out.print("Enter details of city-"+(i+1)+" : "); 
+      city[i].read(); 
+      city[i].cal(); 
  } 
  int ch=0; 
- while(ch != 2){ 
- System.out.print("Press 1 to display\nPress 2 to exit"); 
+      while(ch != 2){ 
+      System.out.print("Press 1 to display\nPress 2 to exit"); 
  ch = in.nextInt(); 
  if(ch ==1){ 
  System.out.print("Enter the city no. : "); 
