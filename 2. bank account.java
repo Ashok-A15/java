@@ -24,16 +24,16 @@ class Bankdetails{
          System.out.println("Balance : "+balance); 
  } 
  void deposit(){ 
- System.out.print("Enter amount to deposit : "); 
- int amt = in.nextInt(); 
- balance += amt; 
+         System.out.print("Enter amount to deposit : "); 
+         int amt = in.nextInt(); 
+         balance += amt; 
  } 
  void withdraw(){ 
- System.out.print("Enter ammount to withdraw : "); 
- int amt = in.nextInt(); 
- if(balance >= amt){ 
- balance -= amt; 
- System.out.println("Balance after withdrawing "+amt+" = "+balance); 
+         System.out.print("Enter ammount to withdraw : "); 
+         int amt = in.nextInt(); 
+         if(balance >= amt){ 
+         balance -= amt; 
+         System.out.println("Balance after withdrawing "+amt+" = "+balance); 
  } 
  else{ 
  System.out.println("Transaction failed!!! Balance is less than amount requested"); 
