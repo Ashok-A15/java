@@ -2,20 +2,20 @@
 import java.util.*; 
 import java.util.Scanner; 
 class Bankdetails{ 
- String name; 
- String acc_type; 
- String acc_no; 
- int balance; 
- Scanner in = new Scanner(System.in); 
+        String name; 
+        String acc_type; 
+        String acc_no; 
+        int balance; 
+        Scanner in = new Scanner(System.in); 
  void openaccount(){ 
- System.out.print("Enter name : "); 
- name = in.next(); 
- System.out.print("Enter account no. : "); 
- acc_no = in.next(); 
- System.out.print("Enter account type : "); 
- acc_type = in.next(); 
- System.out.print("Enter balance : "); 
- balance = in.nextInt(); 
+        System.out.print("Enter name : "); 
+        name = in.next(); 
+        System.out.print("Enter account no. : "); 
+        acc_no = in.next(); 
+        System.out.print("Enter account type : "); 
+        acc_type = in.next(); 
+        System.out.print("Enter balance : "); 
+        balance = in.nextInt(); 
  } 
  void display(){ 
  System.out.println("Name : "+name); 
