@@ -18,10 +18,10 @@ class Bankdetails{
         balance = in.nextInt(); 
  } 
  void display(){ 
- System.out.println("Name : "+name); 
- System.out.println("Account type : "+acc_type); 
- System.out.println("Account no. : "+acc_no); 
- System.out.println("Balance : "+balance); 
+         System.out.println("Name : "+name); 
+         System.out.println("Account type : "+acc_type); 
+         System.out.println("Account no. : "+acc_no); 
+         System.out.println("Balance : "+balance); 
  } 
  void deposit(){ 
  System.out.print("Enter amount to deposit : "); 
