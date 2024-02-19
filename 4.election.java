@@ -1,8 +1,3 @@
-/*
-
-    Name of the program: _4Election.java
-*/
-
 import java.util.*;
 
 class Counter {
