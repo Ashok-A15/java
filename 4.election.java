@@ -35,7 +35,6 @@ class Counter {
                 spoiltBallot++;
             }
         }
-        sc.close();
     }
 
     void displayResult(int[] count) {
@@ -47,7 +46,7 @@ class Counter {
     }
 }
 
-public class election {
+public class Main{
     public static void main(String[] args) {
         int[] count = new int[5];
 
