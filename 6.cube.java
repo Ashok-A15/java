@@ -28,7 +28,7 @@ class CUBE {
     }
 }
 
-public class _6CubeApp {
+public class Main{
     public static void main(String[] args) {
         CUBE obj1 = new CUBE();
         CUBE obj2 = new CUBE();
@@ -60,4 +60,3 @@ public class _6CubeApp {
  * Cube-3 Volume: 27.0 cubic units and Outer Area: 54.0 sq units
  * 
  */
-
