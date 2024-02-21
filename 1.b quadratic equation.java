@@ -1,4 +1,3 @@
-Program 1.b : Find all the roots of a quadratic equation
 import java.util.*;
  class Roots {
  
