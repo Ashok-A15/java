@@ -1,7 +1,3 @@
-/** JAVA program to print scores of students
-    Name of the program: _11StudentScore.java
-*/
-
 import java.util.Scanner;
 
 class Student {
