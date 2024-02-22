@@ -1,7 +1,3 @@
-/** JAVA program to implement stack
-    Name of the program: _12Stack.java
-*/
-
 import java.util.*;
 
 class StackException extends Exception {
