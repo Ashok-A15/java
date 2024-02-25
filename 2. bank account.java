@@ -59,8 +59,8 @@ public class Main{
  } 
  int ch; 
  do{ 
- System.out.println("Enter your choice : "); 
- System.out.print("1. Display \n2. Search account by account no.\n3. Deposit\n4. Withdraw\n0. Exit\n"); 
+          System.out.println("Enter your choice : "); 
+          System.out.print("1. Display \n2. Search account by account no.\n3. Deposit\n4. Withdraw\n0. Exit\n"); 
  ch = in.nextInt(); 
  switch(ch){ 
  case 1 : for(int i=0;i<c.length;i++){ 
