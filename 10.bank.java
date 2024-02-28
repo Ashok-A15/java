@@ -1,6 +1,4 @@
-/** JAVA program to display bank details
-    Name of the program: _10Bank.java
-*/
+
 
 import java.util.*;
 
