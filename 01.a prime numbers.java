@@ -20,6 +20,7 @@
              break; 
  } 
  } 
+              
              if(flag == 1) 
  System.out.print(i+" "); 
  } 
