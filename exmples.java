@@ -8,4 +8,3 @@ public class AddTwoNumbers {
       System.out.println("Sum of these numbers: "+sum);
    }
 }
-
