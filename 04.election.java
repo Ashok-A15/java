@@ -2,7 +2,6 @@ import java.util.*;
 
 class Counter {
     int spoiltBallot = 0;
-
     void counting(int[] count) {
         Scanner sc = new Scanner(System.in);
         while (true) {
