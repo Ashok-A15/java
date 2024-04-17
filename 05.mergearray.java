@@ -1,5 +1,6 @@
 import java.util.*;
 class ArrayInAndSort {
+    
     static void sort(int[] A, int[] B, int[] C, int m, int n) {
         int i = 0, j = 0, k = 0;
         while (i < m && j < n) {
