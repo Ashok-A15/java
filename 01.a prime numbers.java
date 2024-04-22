@@ -1,3 +1,4 @@
+
 // Generate prime numbers for the given range. 
  import java.util.*; 
  import java.util.Scanner; 
