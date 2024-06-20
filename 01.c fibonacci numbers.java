@@ -1,4 +1,3 @@
-
 // Print ‘N’ Fibonacci numbers. 
  import java.util.*; 
  import java.util.Scanner; 
