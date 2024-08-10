@@ -1,6 +1,7 @@
 
 import java.util.*;
- class Roots {
+
+class Roots {
  
     public static void main(String[] args)
     {
